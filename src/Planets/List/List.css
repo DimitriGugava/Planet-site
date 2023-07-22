@@ -1,0 +1,310 @@
+.planetsList {
+  width: 327px;
+  height: 487px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  margin: 24px auto;
+  justify-content: space-around;
+  gap: 16px;
+}
+
+.mercury {
+  width: 319px;
+  height: 25px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  margin: 0px auto;
+}
+.mercury_Oval {
+  width: 20px;
+  height: 20px;
+  fill: #def4fc;
+  background-color: #def4fc;
+  border-radius: 100px;
+}
+.mercury_Text {
+  color: #fff;
+  margin-left: 25px;
+  text-align: center;
+  font-family: "Spartan";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 166.667% */
+  letter-spacing: 1.364px;
+  text-transform: uppercase;
+
+  text-decoration: none !important;
+}
+.mercury_Text:hover {
+  color: #545bfe;
+  cursor: pointer;
+}
+.mercury_Text:active {
+  color: #454bfd;
+}
+.arrow {
+  width: 12px;
+  height: 12px;
+  margin-left: 170px;
+}
+.arrow:hover {
+  cursor: pointer;
+}
+
+.list_Line {
+  width: 327px;
+  height: 1px;
+  flex-shrink: 0;
+  opacity: 0.10000000149011612;
+  background: #fff;
+}
+.venus {
+  width: 319px;
+  height: 25px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  margin: 0px auto;
+}
+.venus_Oval {
+  width: 20px;
+  height: 20px;
+  fill: #f7cc7f;
+  background-color: #f7cc7f;
+  border-radius: 100px;
+}
+.venus_Text {
+  color: #fff;
+  margin-left: 25px;
+  text-align: center;
+  font-family: "Spartan";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 166.667% */
+  letter-spacing: 1.364px;
+  text-transform: uppercase;
+}
+.venus_Text:hover {
+  color: #545bfe;
+  cursor: pointer;
+}
+.venus_Text:active {
+  color: #454bfd;
+}
+.earth {
+  width: 319px;
+  height: 25px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  margin: 0px auto;
+}
+.earth_Oval {
+  width: 20px;
+  height: 20px;
+  fill: #545bfe;
+  background-color: #545bfe;
+  border-radius: 100px;
+}
+.earth_Text {
+  color: #fff;
+  margin-left: 25px;
+  text-align: center;
+  font-family: "Spartan";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 166.667% */
+  letter-spacing: 1.364px;
+  text-transform: uppercase;
+}
+.earth_Text:hover {
+  color: #545bfe;
+  cursor: pointer;
+}
+.earth_Text:active {
+  color: #454bfd;
+}
+
+.mars {
+  width: 319px;
+  height: 25px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  margin: 0px auto;
+}
+.mars_Oval {
+  width: 20px;
+  height: 20px;
+  fill: #ff6a45;
+  background-color: #ff6a45;
+  border-radius: 100px;
+}
+.mars_Text {
+  color: #fff;
+  margin-left: 25px;
+  text-align: center;
+  font-family: "Spartan";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 166.667% */
+  letter-spacing: 1.364px;
+  text-transform: uppercase;
+}
+
+.mars_Text:hover {
+  color: #545bfe;
+  cursor: pointer;
+}
+.mars_Text:active {
+  color: #454bfd;
+}
+
+.jupiter {
+  width: 319px;
+  height: 25px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  margin: 0px auto;
+}
+.jupiter_Oval {
+  width: 20px;
+  height: 20px;
+  fill: #ecad7a;
+  background-color: #ecad7a;
+  border-radius: 100px;
+}
+.jupiter_Text {
+  color: #fff;
+  margin-left: 25px;
+  text-align: center;
+  font-family: "Spartan";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 166.667% */
+  letter-spacing: 1.364px;
+  text-transform: uppercase;
+}
+
+.jupiter_Text:hover {
+  color: #545bfe;
+  cursor: pointer;
+}
+.jupiter_Text:active {
+  color: #454bfd;
+}
+.saturn {
+  width: 319px;
+  height: 25px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  margin: 0px auto;
+}
+.saturn_Oval {
+  width: 20px;
+  height: 20px;
+  fill: #f2e3c9;
+  background-color: #f2e3c9;
+  border-radius: 100px;
+}
+.saturn_Text {
+  color: #fff;
+  margin-left: 25px;
+  text-align: center;
+  font-family: "Spartan";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 166.667% */
+  letter-spacing: 1.364px;
+  text-transform: uppercase;
+}
+
+.saturn_Text:hover {
+  color: #545bfe;
+  cursor: pointer;
+}
+.saturn_Text:active {
+  color: #454bfd;
+}
+
+.uranus {
+  width: 319px;
+  height: 25px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  margin: 0px auto;
+}
+.uranus_Oval {
+  width: 20px;
+  height: 20px;
+  fill: #65f0d5;
+  background-color: #65f0d5;
+  border-radius: 100px;
+}
+.uranus_Text {
+  color: #fff;
+  margin-left: 25px;
+  text-align: center;
+  font-family: "Spartan";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 166.667% */
+  letter-spacing: 1.364px;
+  text-transform: uppercase;
+}
+
+.uranus_Text:hover {
+  color: #545bfe;
+  cursor: pointer;
+}
+.uranus_Text:active {
+  color: #454bfd;
+}
+.neptune {
+  width: 319px;
+  height: 25px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  margin: 0px auto;
+}
+.neptune_Oval {
+  width: 20px;
+  height: 20px;
+  fill: #497efa;
+  background-color: #497efa;
+  border-radius: 100px;
+}
+
+.neptune_Text {
+  color: #fff;
+  margin-left: 25px;
+  text-align: center;
+  font-family: "Spartan";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 166.667% */
+  letter-spacing: 1.364px;
+  text-transform: uppercase;
+}
+
+.neptune_Text:hover {
+  color: #545bfe;
+  cursor: pointer;
+}
+.neptune_Text:active {
+  color: #454bfd;
+}

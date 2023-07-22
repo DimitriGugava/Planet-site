@@ -1,0 +1,299 @@
+.main_Container {
+  width: 375px;
+  height: 950px;
+  margin: 0px auto;
+  background: #070724;
+}
+.header_Box {
+  width: 320px;
+  height: 35px;
+  margin: 16px 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.header_Text {
+  width: 190px !important;
+  height: 28px;
+  color: #fff;
+  font-family: "Antonio";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1.05px;
+  text-transform: uppercase;
+}
+.menu_Bar {
+  width: 24px;
+  height: 17px;
+}
+.menu_Bar:hover {
+  cursor: pointer;
+}
+
+.thin_Header_Line {
+  width: 375px;
+  height: 1px;
+  flex-shrink: 0;
+  opacity: 0.20000000298023224;
+  background: #fff;
+}
+
+.options {
+  width: 340px;
+  height: 35px;
+  margin: 16px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.overview {
+  width: 80px;
+  color: #fff;
+  text-align: center;
+  font-family: Spartan;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.929px;
+  text-transform: uppercase;
+}
+.overview:hover {
+  cursor: pointer;
+  text-underline-offset: 32px;
+  text-decoration: underline;
+}
+.overview:active {
+  color: #dcdcdc;
+}
+
+.structure {
+  width: 80px;
+  color: #fff;
+  text-align: center;
+  font-family: Spartan;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.929px;
+  text-transform: uppercase;
+}
+.structure:hover {
+  cursor: pointer;
+  text-underline-offset: 32px;
+  text-decoration: underline;
+}
+.structure:active {
+  color: #dcdcdc;
+}
+
+.surface {
+  width: 80px;
+  color: #fff;
+  text-align: center;
+  font-family: Spartan;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.929px;
+  text-transform: uppercase;
+}
+.surface:hover {
+  cursor: pointer;
+  text-underline-offset: 32px;
+  text-decoration: underline;
+}
+.surface:active {
+  color: #dcdcdc;
+}
+.planetImage {
+  width: 111px;
+  height: 111px;
+  flex-shrink: 0;
+  margin: 95px 132px !important;
+}
+.planet_Info_Box {
+  margin: 0px auto;
+  width: 327px;
+  height: 235px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.planet_Name {
+  color: #fff;
+  text-align: center;
+  font-family: Antonio;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.planet_Text {
+  color: #fff;
+  text-align: center;
+  font-family: Spartan;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  width: 327px;
+}
+.planet_Source {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 4px;
+  color: #fff;
+  font-family: Spartan;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  opacity: 0.5;
+}
+
+.facts_Box {
+  width: 327px;
+  height: 216px;
+  flex-shrink: 0;
+  margin: 16px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.rotation_Time_Box {
+  width: 307px;
+  height: 54px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.rotation_Time_text {
+  color: #fff;
+  font-family: Spartan;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 200% */
+  letter-spacing: 0.727px;
+  text-transform: uppercase;
+}
+.rotation_Time {
+  color: #fff;
+  text-align: right;
+  font-family: "Antonio";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.75px;
+  text-transform: uppercase;
+}
+.revolution_Time_Box {
+  width: 307px;
+  height: 54px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.revolution_Time_text {
+  color: #fff;
+  font-family: Spartan;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 200% */
+  letter-spacing: 0.727px;
+  text-transform: uppercase;
+}
+
+.revolution_Time {
+  color: #fff;
+  text-align: right;
+  font-family: "Antonio";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.75px;
+  text-transform: uppercase;
+}
+.radius_Box {
+  width: 307px;
+  height: 54px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.radius_text {
+  color: #fff;
+  font-family: Spartan;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 200% */
+  letter-spacing: 0.727px;
+  text-transform: uppercase;
+}
+.radius {
+  color: #fff;
+  text-align: right;
+  font-family: "Antonio";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.75px;
+  text-transform: uppercase;
+}
+.average_Temp_Box {
+  width: 307px;
+  height: 54px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.average_Temp_text {
+  color: #fff;
+  font-family: Spartan;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 200% */
+  letter-spacing: 0.727px;
+  text-transform: uppercase;
+}
+
+.average_Temp {
+  color: #fff;
+  text-align: right;
+  font-family: "Antonio";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.75px;
+  text-transform: uppercase;
+}
